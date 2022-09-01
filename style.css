@@ -152,3 +152,14 @@ body{
 .subscribe{
     margin: 5% auto;
 }
+footer{
+    padding:3%;
+    text-align: center;
+    background-color: black;
+}
+footer h1{
+    color: brown;
+}
+footer p{
+    color: gray;
+}
