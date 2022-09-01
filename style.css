@@ -26,6 +26,9 @@ body{
     text-align: center;
     vertical-align: middle;
 }
+.top p{
+    margin-bottom: 30px;
+}
 .title{
     font-size: 40px;
     color: rgb(212, 212, 212);
@@ -107,4 +110,30 @@ body{
 }
 #khaki{
     background-color: rgba(240, 230, 140, 0.397);
+}
+.image{
+    width:330px;
+    height: 240px;
+    border-radius: 10px;
+}
+.card.ac{
+    box-shadow: 10px 10px 20px gray;
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+.card.ac p{
+    text-align: justify;
+}
+.submit{
+    width: 20%;
+    padding: 10px 30px;
+    text-align: center;
+    border: 1px solid gray;
+    font-size: 16px;
+    font-weight: 300;
+    color: gainsboro;
+    margin: 0;
+
 }
