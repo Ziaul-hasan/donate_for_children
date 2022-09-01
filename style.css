@@ -45,8 +45,9 @@ body{
     border-radius: 10px;
 }
 .donate-top{
-    width: 60%;
-    margin: 3% auto;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 8%;
     text-align: center;
 }
 .donate-top h1{
@@ -71,6 +72,12 @@ body{
     border: 2px solid red;
     border-radius: 5px;
 }
+.donate-form{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 3%;
+    text-align: center;
+}
 #form{
     width: 50%;
     padding: 10px 50px;
@@ -81,4 +88,23 @@ body{
     font-weight: 600;
     color: gainsboro;
     margin-bottom: 40px;
+}
+.plan-card{
+    display: flex;
+    width: 70%;
+    margin: 5% auto;
+}
+.card{
+    width: 25%;
+    margin: 2% auto;
+    padding: 20px;
+}
+#green{
+    background-color: rgba(0, 255, 255, 0.096);
+}
+#pink{
+    background-color: rgba(255, 192, 203, 0.404);
+}
+#khaki{
+    background-color: rgba(240, 230, 140, 0.397);
 }
